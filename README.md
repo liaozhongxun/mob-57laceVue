@@ -148,17 +148,31 @@
 
     链接 : git remote add origin  http.. || ssh
 
-    推送 : git push -u origin master  (第二次就直接push就行了)
-
-
+    推送 : git push -u origin master(分支)  (第二次就直接push就行了)
 
 ==> git pull 拉取远程仓库内容到本地(更新)
+
+==> git branch 分支名 //新建分支
+
+    git branch 分支名 'commit id' //基于某一次提交的分支
+
+    git branch  //查看分支 前面有 * 的就是当前指向的分支(head指向的分支)
+
+    git checkout 分支名 //切换到该分支(会检出该分支最后一次提交的代码到工作区)
+
+
+==> git clone http.. || ssh  克隆远程仓库
 
 ==> git checkout 检出文件(当一个文件改错了 想从历史中拿一个版本来替换是做的)
 
     git checkout  通过commit id 指定哪个版本(没指定的话就用最近一次提交的版本) 文件名
 
 
+==> git status //贮藏工作区(保存当前修改又不想提交的文件 之后)
+
+    git status show 查看贮藏内容
+
+    git status pop 取出贮藏内容
 
 
 ==> 忽略文件 （成功之后查看状态时就不会显示它了）
