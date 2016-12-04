@@ -146,6 +146,9 @@
 
     git commit 回车(进入编辑器) --> i(进入编辑模式) --> esc (退出编辑模式) --> :wq(保存并退出)
 
+    链接 : git remote add origin  http.. || ssh
+
+    推送 : git push -u origin master  (第二次就直接push就行了)
 
 
 ==> git checkout 检出文件(当一个文件改错了 想从历史中拿一个版本来替换是做的)
@@ -175,13 +178,7 @@
 
 ==> 开源中国
 
-    链接 : git remote add origin https://git.oschina.net/liaozhongxun/mob-57laceVueChina.git  
-                          git@git.oschina.net:liaozhongxun/mob-57laceVueChinaRecommend_gray-.git
-
-    推送 : git push -u origin master
-
     本地仓库与远程仓库名必须相同 
-
 
 ==> 生产本机的ssh  
 
