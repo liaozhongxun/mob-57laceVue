@@ -151,6 +151,9 @@
     推送 : git push -u origin master  (第二次就直接push就行了)
 
 
+
+==> git pull 拉取远程仓库内容到本地(更新)
+
 ==> git checkout 检出文件(当一个文件改错了 想从历史中拿一个版本来替换是做的)
 
     git checkout  通过commit id 指定哪个版本(没指定的话就用最近一次提交的版本) 文件名
